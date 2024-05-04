@@ -10,11 +10,13 @@ app = FastAPI()
 async def read_root():
     return JSONResponse({"message": "Welcome to Hello World"}, status_code=200)
 
+
 @app.get("/cities")
 def get_cities():
     cities = crud.get_cities()
     print(f"cities: {cities}")
     return cities
+
 
 @app.get("/experiences")
 def get_experiences():

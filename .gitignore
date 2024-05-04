@@ -2,3 +2,4 @@
 .vercel
 server/__pycache__/
 notes_step.txt
+venv
