@@ -1,0 +1,4 @@
+.conda_env/
+.vercel
+server/__pycache__/
+notes_step.txt
